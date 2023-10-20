@@ -1,7 +1,14 @@
 Thumbs.db*
 .DS_Store
 HELP.md
-
+.gradle
+build/
+gradle/
+src/
+build.gradle
+gradlew
+gradlew.bat
+settings.gradle
 
 ### STS ###
 .apt_generated
@@ -18,13 +25,6 @@ HELP.md
 *.iml
 *.ipr
 out/
-.gradle
-build/
-gradle/
-src/
-build.gradle*
-gradlew*
-gradlew.bat*
 
 ### NetBeans ###
 /nbproject/private/
@@ -37,11 +37,11 @@ gradlew.bat*
 .vscode/
 
 ### Package Files ###
-*.jar
 *.war
 *.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
+*.bat
 
